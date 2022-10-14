@@ -2,8 +2,8 @@ from flask import Flask, render_template, request
 import requests
 import smtplib
 
-email = "newmail002244@gmail.com"
-password = "vncdnqzamtgsrfdz"
+email = "your mail"
+password = "your password"
 
 posts = requests.get("https://api.npoint.io/efb6c12ee2cd10c1d838").json()
 
